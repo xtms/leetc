@@ -2,7 +2,7 @@ package huachuangOrshuangzhizhen;
 
 /**
  *  移除重复的值
- * 
+ *
  */
 public class _26_removeDuplicates {
     public static int removeDuplicates(int[] nums) {
