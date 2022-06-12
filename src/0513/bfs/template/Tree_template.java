@@ -9,6 +9,7 @@ import java.util.Queue;
 
 public class Tree_template {
     // 树的层序遍历
+    // 如果整棵树遍历，不需要 currt做层级循环了
     public List<List<Integer>> levelOrder(TreeNode treeNode) {
         List<List<Integer>> ans = new ArrayList<>();
         if (treeNode == null) {
